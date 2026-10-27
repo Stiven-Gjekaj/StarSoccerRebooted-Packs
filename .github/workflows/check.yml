@@ -1,0 +1,16 @@
+# Checks index.txt for each pull request and each push.
+name: Check the index
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest tests/test_check_index.py
+      - run: python3 tools/check_index.py index.txt
