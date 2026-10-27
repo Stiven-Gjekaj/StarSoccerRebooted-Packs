@@ -1,1 +1,2 @@
 id	name	author	version	format	size	sha256	url
+season-2025-26	Season 2025/26	Star Soccer Rebooted community	1.0	1	1049701	e2e679964f2ad52a5beaf6dc6315a09a47def5ed84e654cb7c162962ff80780f	https://github.com/Stiven-Gjekaj/StarSoccerRebooted-Packs/releases/download/season-2025-26-1.0/season-2025-26.zip
